@@ -4,6 +4,7 @@ import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/router";
 import { useTheme } from "next-themes";
+import Image from "next/image";
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -70,7 +71,14 @@ const Header = () => {
     >
       <div className="flex justify-between md:space-x-10 lg:space-x-12 xl:space-x-16 md:flex items-center place-items-center md:justify-center py-3 md:px-10 px-8">
         <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800 dark:text-white">
-               <Link href="/">RATNESH</Link>
+          <Image
+            src={"/logo.svg"}
+            height={30}
+            width={30}
+            alt="logo"
+            className="mr-2"
+          />
+          <Link href="/">RATNESH</Link>
         </div>
         {currentTheme === "dark" ? (
           <button

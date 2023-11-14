@@ -43,38 +43,38 @@ const ProjectCard = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
         {data.map((project) => {
           return (
-            <div className="bg-cyan-600 p-2 items-center border-2 rounded-2xl border-emerald-400" >
-              <div
-              className="rounded-lg mb-12 flex flex-col items-center"
+            <div
               key={project.id}
+              className="bg-cyan-600 p-2 items-center border-2 rounded-2xl border-emerald-400"
             >
-              <Link
-                href={project.link}
-                target={project.target}
-                onClick={() => {
-                  project.title === "Portfolio"
-                    ? alert("You are already on this site! 🤩")
-                    : "";
-                }}
-              >
-                <Image
-                  loading="lazy"
-                  src={project.image}
-                  alt={project.title}
-                  width={400}
-                  height={400}
-                  className="rounded-md drop-shadow-2xl hover:scale-110"
-                />
-              </Link>
-              <div className="flex flex-col items-center">
-                <h1 className="font-semibold text-[1.5rem] mt-3 text-gray-700 dark:text-white">
-                  {project.title}
-                </h1>
-                <p className="max-w-[90%] text-slate-200 font-light text-center p-2 rounded-2xl bg-slate-500 inset-4 border-2 m-2 border-red-300 shadow-md">
-                  {project.description}
-                </p>
+              <div className="rounded-lg mb-12 flex flex-col items-center">
+                <Link
+                  href={project.link}
+                  target={project.target}
+                  onClick={() => {
+                    project.title === "Portfolio"
+                      ? alert("You are already on this site! 🤩")
+                      : "";
+                  }}
+                >
+                  <Image
+                    loading="lazy"
+                    src={project.image}
+                    alt={project.title}
+                    width={400}
+                    height={400}
+                    className="rounded-md drop-shadow-2xl hover:scale-110"
+                  />
+                </Link>
+                <div className="flex flex-col items-center">
+                  <h1 className="font-semibold text-[1.5rem] mt-3 text-gray-700 dark:text-white">
+                    {project.title}
+                  </h1>
+                  <p className="max-w-[90%] text-slate-200 font-light text-center p-2 rounded-2xl bg-slate-500 inset-4 border-2 m-2 border-red-300 shadow-md">
+                    {project.description}
+                  </p>
+                </div>
               </div>
-            </div>
             </div>
           );
         })}

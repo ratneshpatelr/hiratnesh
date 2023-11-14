@@ -42,15 +42,15 @@ const About = () => {
             <p className="mt-6 mb-12 leading-10 font-normal">
               I love web development, especially the creative side. I started
               with competitive knowledge but found my true passion in coding
-              through my first web app. Responsibility matters to me, and I'm
-              all about learning and curiosity. In my free time, I work on
-              different projects and contribute to open source software, always
-              looking to boost my skills. I'm dedicated to web development,
-              merging creativity with tech skills to create cool digital
-              solutions.{" "}
+              through my first web app. Responsibility matters to me, and
+              I&apos;m all about learning and curiosity. In my free time, I work
+              on different projects and contribute to open source software,
+              always looking to boost my skills. I&apos;m dedicated to web
+              development, merging creativity with tech skills to create cool
+              digital solutions.{" "}
             </p>
             <p className="text-gray-400 select-none font-semibold mb-1 dark:text-white/30 ">
-              And last but not least, please don't hesitate to contact me!
+              And last but not least, please don&apos;t hesitate to contact me!
             </p>
             <ol className="pt-4 gap-2">
               <li className="flex gap-2">
