@@ -5,7 +5,7 @@ import CategoryCard from "./CategoryCard";
 
 const About = () => {
   return (
-    <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
+    <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem] ">
       <Head>
         <title>About✦Ratnesh</title>
         <link rel="icon" href="/Avatar-white.svg" />

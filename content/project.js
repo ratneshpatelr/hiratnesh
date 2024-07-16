@@ -1,6 +1,16 @@
 export const data = [
   {
     id: 1,
+    image: "/work/practioner.png",
+    title: "Interview With AI",
+    description:
+      "Practitioner empowers you to streamline the interview creation process with the assistance of artificial intelligence (AI).",
+    link: "https://interview-with-ai-two.vercel.app/",
+    target: "_blank",
+  },
+  
+  {
+    id: 2,
     image: "/work/mcq.png",
     title: "MCQ PLATFORM",
     description:
@@ -9,7 +19,7 @@ export const data = [
     target: "_blank",
   },
   {
-    id: 2,
+    id: 3,
     image: "/work/Rfine.png",
     title: "Refine",
     description:
@@ -18,7 +28,7 @@ export const data = [
     target: "_blank",
   },
   {
-    id: 3,
+    id: 4,
     image: "/work/habitmaker.png",
     title: "Habit Maker",
     description:
@@ -27,7 +37,7 @@ export const data = [
     target: "_blank",
   },
   {
-    id: 4,
+    id: 5,
     image: "/work/IntractFlow.png",
     title: "Intract-Flow",
     description:
@@ -36,7 +46,7 @@ export const data = [
     target: "_blank",
   },
   {
-    id: 5,
+    id: 6,
     image: "/work/commerce.webp",
     title: "netflix",
     description:
@@ -45,18 +55,18 @@ export const data = [
     target: "_blank",
   },
   {
-    id: 6,
-    image: "/work/netflix.jpg",
-    title: "Shopping_app",
+    id: 7,
+    image: "/work/holiday.png",
+    title: "leave-management-system",
     description:
-      "Engineered a shopping app's sleek design, leveraging Redux Toolkit and cutting-edge tools for a seamless and delightful retail experience.",
-    link: "https://github.com/ratneshpatelr/Shoping-app.git",
+      "Users can submit leave requests & Admins Moderators can view and edit submitted leaves",
+    link: "https://farewello.vercel.app/",
     target: "_blank",
   },
 
   {
     id: 8,
-    image: "/work/jokes.png",
+    image: "/work/hiratnesh.png",
     title: "Portfolio",
     description: "Portfolio made using NextJS and Tailwind CSS",
     link: "",
@@ -64,11 +74,20 @@ export const data = [
   },
   {
     id: 9,
-    image: "/work/jokes.png",
-    title: "Random_jokes",
+    image: "/work/githubfinder.png",
+    title: "Github-Finder",
     description:
-      "Whip up laughter with a random joke generator, your go-to source for instant joy and endless giggles. Embrace the fun!",
-    link: "https://github.com/ratneshpatelr/Random_jokes.git",
+      "App to search Github users and display their info.",
+    link: "https://ratnesh-github-finder.vercel.app/",
+    target: "_blank",
+  },
+  {
+    id: 10,
+    image: "/work/medium.webp",
+    title: "medium",
+    description:
+      "learning application",
+    link: "https://github.com/ratneshpatelr/medium.git/",
     target: "_blank",
   },
 ];
