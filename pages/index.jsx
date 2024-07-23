@@ -6,7 +6,6 @@ import TechCard from "@/components/TechCard";
 import { data } from "@/content/project";
 import Project from "@/components/Project";
 import Education from "@/components/Education";
-import logo from "../public/logo.svg"
 
 export default function Home() {
   const changeId = (id) => {
@@ -17,7 +16,6 @@ export default function Home() {
     <>
       <Head>
         <title>Ratnesh ✦ web developer</title>
-        <link rel="icon" href={logo} />
       </Head>
       <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[85rem]">
         <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
