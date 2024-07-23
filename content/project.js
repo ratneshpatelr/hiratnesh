@@ -83,7 +83,7 @@ export const data = [
   },
   {
     id: 10,
-    image: "/work/commerce.webp",
+    image: "/work/netflix.jpg",
     title: "netflix",
     description:
       "A Netflix-inspired landing page with HTML, CSS, and JS, blending creativity and code for an enticing streaming experience.",
