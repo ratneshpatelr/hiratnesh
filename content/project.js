@@ -47,11 +47,11 @@ export const data = [
   },
   {
     id: 6,
-    image: "/work/commerce.webp",
-    title: "netflix",
+    image: "/work/medium.webp",
+    title: "medium",
     description:
-      "A Netflix-inspired landing page with HTML, CSS, and JS, blending creativity and code for an enticing streaming experience.",
-    link: "https://github.com/ratneshpatelr/netflix.git",
+      "learning application",
+    link: "https://github.com/ratneshpatelr/medium.git/",
     target: "_blank",
   },
   {
@@ -83,11 +83,12 @@ export const data = [
   },
   {
     id: 10,
-    image: "/work/medium.webp",
-    title: "medium",
+    image: "/work/commerce.webp",
+    title: "netflix",
     description:
-      "learning application",
-    link: "https://github.com/ratneshpatelr/medium.git/",
+      "A Netflix-inspired landing page with HTML, CSS, and JS, blending creativity and code for an enticing streaming experience.",
+    link: "https://github.com/ratneshpatelr/netflix.git",
     target: "_blank",
   },
+  
 ];
